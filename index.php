@@ -201,7 +201,7 @@ if ($_POST)
         <div class="grid-container">
 
             <figure>
-                <img src="img/team/BOUKAZZAR-Omar.webp" alt="">
+                <img src="img/team/Hicham_El-Maadoudi.jpg" alt="">
 
                 <figcaption>
                     <h2>Hicham  El-Maadoudi</h2>
@@ -210,7 +210,8 @@ if ($_POST)
             </figure>
 
             <figure>
-                <img src="img/team/MEYER-Antoine.webp" alt="">
+                <img src="img/team/photo_placeholder.jpg" alt="">
+
 
                 <figcaption>
                     <h2> Yassir Masfour</h2>
@@ -219,7 +220,7 @@ if ($_POST)
             </figure>
 
             <figure>
-                <img src="img/team/LAMNOUAR-Reda.webp" alt="">
+                <img src="img/team/Rim_Nazih.png" alt="">
 
                 <figcaption>
                     <h2>Rim Nazih</h2>
@@ -228,7 +229,7 @@ if ($_POST)
             </figure>
 
             <figure>
-                <img src="img/team/EL-YOUMNI-Maria.webp" alt="">
+                <img src="img/team/Loïc_Costiou.jpg" alt="">
 
                 <figcaption>
                     <h2>Loïc Costiou</h2>
@@ -237,7 +238,7 @@ if ($_POST)
             </figure>
 
             <figure>
-                <img src="img/team/BELAZIZ-Nada.webp" alt="">
+                <img src="img/team/photo_placeholder.jpg" alt="">
 
                 <figcaption>
                     <h2>Axelle Combe</h2>
@@ -246,7 +247,7 @@ if ($_POST)
             </figure>
 
             <figure>
-                <img src="img/team/BENCHEKROUN-Ismail.webp" alt="">
+                <img src="img/team/photo_placeholder.jpg" alt="">
 
                 <figcaption>
                     <h2>Esteban Melero</h2>
@@ -255,7 +256,7 @@ if ($_POST)
             </figure>
 
             <figure>
-                <img src="img/team/DUET-Venceslas.webp" alt="">
+                <img src="img/team/photo_placeholder.jpg" alt="">
 
                 <figcaption>
                     <h2>Maxence Chutaux</h2>
@@ -263,7 +264,7 @@ if ($_POST)
                 </figcaption>
             </figure>
             <figure>
-                <img src="img/team/BOUJIDA-Achraf.webp" alt="">
+                <img src="img/team/walidpic_1.jpg" alt="">
 
                 <figcaption>
                     <h2>Walid Chakib</h2>
@@ -271,6 +272,7 @@ if ($_POST)
                 </figcaption>
             </figure>
 	    <figure>
+		<img src="img/team/photo_placeholder.jpg" alt="">
 		<figcaption>
 		  <h2> Antoine Gueleraud </h2>
 		  <h3> Membre de l'Anelis </h3>
