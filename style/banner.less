@@ -1,0 +1,104 @@
+@keyframes header {
+    0% {
+        box-shadow: 0 0 8px #00000000;
+        border-bottom-color: transparent;
+        background-color: transparent;
+        color: white;
+    }
+    50% {
+        color: white;
+    }
+    60% {
+        color: var(--header-color);
+    }
+}
+
+@keyframes logo {
+    0% {
+        fill: white;
+    }
+    50% {
+        fill: white;
+    }
+    60% {
+        fill: var(--fill-color);
+    }
+}
+
+.with-js header {
+    --offset: 0s;
+
+    animation: header 1s linear;
+    animation-play-state: paused;
+    animation-delay: var(--offset);
+
+    svg path, nav svg {
+        animation: logo 1s linear;
+        animation-play-state: paused;
+        animation-delay: var(--offset);
+    }
+}
+
+#banner {
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+
+    text-align: center;
+
+    background-color: @image-primary-color;
+    color: white;
+
+    & > * {
+        z-index: 1;
+    }
+
+    &::before {
+        content: '';
+
+        z-index: 0;
+
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+
+        background: url(../img/banner.webp) no-repeat center/cover;
+
+        filter: brightness(0.4) saturate(80%) opacity(.8);
+    }
+
+    h1 {
+        font-size: 48px;
+        line-height: 56px;
+    }
+
+    p {
+        font-size: 24px;
+        line-height: 32px;
+        margin: 8px auto;
+
+        width: 95%;
+        max-width: var(--max-content-width);
+    }
+
+    a {
+        font-size: 20px;
+        line-height: 48px;
+        padding: 0 28px;
+        margin: 32px 0;
+
+        border: solid 1px white;
+        border-radius: 4px;
+
+        text-decoration: none;
+
+        display: block;
+    }
+}
