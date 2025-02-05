@@ -1,0 +1,7 @@
+Pour set up un site via github : 
+
+
+aller dans pages dans la sections options(settings) du répositoire sur le site web
+dans branch selectionner celle qui vous intéresse.
+puis appuyer sur save, cela va chercher et afficher le .html dans le code.
+Néanmoins on peut que mettre un seul par répositoire.
